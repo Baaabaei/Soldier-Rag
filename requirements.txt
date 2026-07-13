@@ -1,0 +1,9 @@
+pymilvus>=2.4.9
+FlagEmbedding>=1.2.10
+anthropic>=0.40.0
+torch
+numpy
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.8.0
+streamlit>=1.38.0

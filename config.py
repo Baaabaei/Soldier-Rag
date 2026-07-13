@@ -1,0 +1,20 @@
+import os
+
+MILVUS_URI = os.getenv("MILVUS_URI", "http://localhost:19530")
+COLLECTION_NAME = os.getenv("MILVUS_COLLECTION", "dadrah_sarbazi_qa")
+
+BGE_M3_MODEL_NAME = "BAAI/bge-m3"
+RERANKER_MODEL_NAME = "BAAI/bge-reranker-v2-m3"
+
+DENSE_DIM = 1024
+
+TOP_K_RETRIEVE = 20
+TOP_K_RERANK = 5
+
+CHUNK_MAX_CHARS = 800
+CHUNK_OVERLAP_CHARS = 150
+
+MEMORY_MAX_TURNS = 6
+
+GENERATION_MODEL = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-5")
+ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
