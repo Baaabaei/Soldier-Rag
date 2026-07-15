@@ -74,5 +74,6 @@ def main(json_path):
     print("درج در Milvus کامل شد.")
 
 
+
 if __name__ == "__main__":
     main(sys.argv[1] if len(sys.argv) > 1 else "data/dadrah_sarbazi_qa.json")
